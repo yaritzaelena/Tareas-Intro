@@ -1,3 +1,4 @@
+#PROBLEMA1
 class Sumatoria(object):
     def __init__(self):
         pass
@@ -28,6 +29,7 @@ class Sumatoria(object):
             return result
         else: return self.antidiagonal(m1, indice-1, result + matriz[indice][-(indice+1)])
 
+#PROBLEMA 2
 
 class Estdistica (object):
     def __init__ (self, matriz):
@@ -46,7 +48,9 @@ class Estdistica (object):
         if len (matriz)%2 == 1:
            return i_1
         if len (matriz)%2 == 2:                                                                                              
-           return (i_1+i_2)/2                                 
+           return (i_1+i_2)/2 
+#PROBLEMA 3    
+
 class Polinomio (object):
      def __init__ (self):                                                                                                 
          pass                           
@@ -65,6 +69,8 @@ class Polinomio (object):
         if s <= 49:
             return self.polinomio_aux (num1, num2, r+1, 1)
         else: return self.polinomio_aux (num1, num2, r, s+1)
+
+#PROBLEMA 4
 
 class Notacion (object):
     def __init__ (self):
